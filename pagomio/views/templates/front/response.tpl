@@ -23,7 +23,7 @@
 				<td>${$value|escape:'htmlall':'UTF-8'}</td>
 			</tr>
 			<tr align="left">
-				<td>'Medio de pago' mod='pagomio'}</td>
+				<td>{l s='Medio de pago' mod='pagomio'}</td>
 				<td>{$lapPaymentMethod|escape:'htmlall':'UTF-8'}</td>
 			</tr>
 		</table>
